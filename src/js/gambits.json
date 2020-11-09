@@ -1,0 +1,2823 @@
+{
+    "gambits": [
+        {
+            "name": "Adrenaline Rush",
+            "level": "2nd",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Reaction*",
+            "note": "* - upon taking damage",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "For the duration, you gain the following benefits: +10ft to speed, +1d4 damage on melee and unarmed attacks and foes making opportunity attacks against you suffer disadvantage.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Advice",
+            "level": "Trick",
+            "school": "Civility",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "You give an ally some advice on their next move. Choose a target within range that can see or hear you. Once before the gambit ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The gambit then ends.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Animal Call",
+            "level": "3rd",
+            "school": "Wilderness",
+            "range": "1 mile",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "None",
+            "description": "You emit a feral call, summoning 2d8 beasts from within the radius to the area. The beasts do not obey your commands, but may provide distraction or interference.",
+            "tags": ["utility"]
+        },
+        {
+            "name": "Assisted Aim",
+            "level": "Trick",
+            "school": "Instinct",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 Round",
+            "components": "Technomancer Robot or Drone",
+            "description": "Your Robot or Drone aids your aim. On your next turn, you gain advantage on your first attack roll against the target, provided that this gambit hasn't ended.",
+            "tags": ["buff"]
+        },
+        {
+            "name": "Authority Figure",
+            "level": "1st",
+            "school": "Civility",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "None",
+            "description": "You try your hardest to look like you know what you're doing, giving advantage on skill rolls to convince or command non-hostile targets for the duration.",
+            "tags": ["buff", "utility"]
+        },
+        {
+            "name": "Autonomous Blast",
+            "broken": "small",
+            "level": "Trick",
+            "school": "Slaying",
+            "range": "90 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Technomancer Robot or Drone",
+            "description": "Your Robot or Drone focuses in on a target within range, firing a heavy metal slug at them. Make a ranged gambit attack. On hit, the target takes 1d10 concussion damage.",
+            "higher": "The number of slugs fired per Autonomous Blast increases to two at 5th level, three at 11th level, and four at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.",
+            "tags": ["damage"]
+        },
+        {
+            "name": "Avoidance",
+            "level": "4th",
+            "school": "Instinct",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "24 Hours",
+            "components": "None",
+            "description": "For the duration, you and any allied creatures within range avoid a specific creature, substance, group or landmark you name while traveling.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Back-to-Back",
+            "level": "Trick",
+            "school": "Civility",
+            "range": "30 feet",
+            "pull": "Bonus Action",
+            "duration": "1 Round",
+            "components": "None",
+            "description": "Choose a friendly target within range. You immediately use your movement to move to their location. For the duration, so long as neither of you remain within 5 feet of each other, you both benefit from the highest level of cover either of you has for any attack.",
+            "tags": ["movement", "utility"]
+        },
+
+        {
+            "name": "Backwards Planning",
+            "level": "2nd",
+            "school": "Foresight",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "1 Round",
+            "components": "None",
+            "description": "Choose up to two friendly targets within range. They may immediately move, take an action or take a bonus action.",
+            "higher": "When you pull this gambit using a slot of 3rd level or higher, you may select one additional target per slot level above 2nd.",
+            "tags": ["utility", "movement"]
+        },
+
+        {
+            "name": "Bad Medicine",
+            "level": "1st",
+            "broken": "small",
+            "school": "Patching",
+            "range": "5 feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "One chemical or herbal scrap, consumed",
+            "description": "Make a melee gambit attack. On hit, the target immediately takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, they are Poisoned until the end of their next turn.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, and expend one additional scrap per level, the damage is increased by 1d8 for each slot level above 1st.",
+            "tags": ["damage", "debuff"]
+        },
+
+        {
+            "name": "Bait",
+            "level": "3rd",
+            "broken": "med",
+            "school": "Wilderness",
+            "range": "100 Feet",
+            "pull": "Bonus Action",
+            "duration": "10 Rounds",
+            "components": "Three animal, herbal scraps, consumed",
+            "description": "One target of your choice within range must succeed a Wisdom saving throw or become compelled to move to a space you identify within range. If the space is outside of the target's movement speed, they must use their action to dash towards it. The gambit ends when the target reaches the location. The target will take the safest route to the location, avoiding rough terrain, attacks of opportunity or other hazards or dangers.",
+            "tags": ["movement", "compulsion"]
+        },
+
+        {
+            "name": "Battle Cry",
+            "level": "3rd",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "You let out a furious battle cry, getting adrenaline pumping through your veins. For the duration, your AC is calculated as 14 + your Dexterity modifier. Additionally, you have advantage on saving throws against the Frightened condition for the duration.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Bar the Door",
+            "level": "4th",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "Four metal, plastic or wood scraps",
+            "description": "For the duration, as long as you maintain concentration, a door of your choice that you are touching remains closed and is immune to damage.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Bedside Manner",
+            "level": "3rd",
+            "broken": "small",
+            "school": "Patching",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 8 hours",
+            "components": "Three cloth and chemical or herbal scraps, consumed",
+            "description": "For the duration, you and up to three sentient creatures gain advantage on Medicine skill rolls. Whenever you or another target pulls a gambit which heals a creature, they heal for an additional 3d6 hit points.",
+            "higher": "When you pull this gambit using a slot of 4th level or higher, and expend one additional scrap per level, the healing granted is increased by 1d6 per slot level above 3rd.",
+            "tags": ["healing", "buff"]
+        },
+
+        {
+            "name": "Belly Fire",
+            "level": "2nd",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "For the duration, instead of using a gambit slot you may deal yourself 1d6 damage per gambit slot level.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Big Swing",
+            "level": "3rd",
+            "school": "Daredevil",
+            "range": "5 feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "A melee weapon",
+            "description": "Make a melee gambit attack. On a hit, your hit counts as a critical. On a miss, the target may immediately make an opportunity attack against you.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Binge Watch",
+            "level": "6th",
+            "school": "Old Ways",
+            "range": "Self",
+            "pull": "Long Rest",
+            "duration": "24 Hours",
+            "components": "Books, electronic media or other sources of information",
+            "description": "You spend a long rest consuming media. At the end of the pull time, you may take 3 proficiencies you do not already have related to the media you consumed for the duration.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Block Passage",
+            "level": "3rd",
+            "school": "Daredevil",
+            "range": "15 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "A ranged weapon or melee weapon with reach",
+            "description": "You cause the ceiling of a ruined building or tunnel to collapse on a target area within range, blocking all passage. Creatures within the target area must make a Dexterity saving throw or take 2d10 bludgeoning damage and be crushed under falling rubble.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Blue Screen",
+            "level": "3rd",
+            "school": "Old Ways",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "10 minutes",
+            "components": "A functional electronic device, consumed",
+            "description": "You give a target that is not yet hostile to you a working electronic device, captivating them. The target must make an Intelligence saving throw or become Stunned for the duration, or until they take damage or their allies become hostile towards you.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Bombshell",
+            "level": "2nd",
+            "broken": "small",
+            "school": "Slaying",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Two chemical scraps, consumed",
+            "description": "You pump your ranged weapon full of explosive chemicals. Make a ranged gambit attack against a target within range. On a hit, target takes 2d6 concussion damage and is knocked prone. Creatures within 5 feet of target must make a Dexterity saving throw or be knocked prone as well.",
+            "higher": "When you pull this gambit using a slot of 3rd level or higher, and expend one additional scrap per level, the damage dealt is increased by 1d6 per slot level above 2nd.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Bootlegger Reverse",
+            "level": "3rd",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Vehicle you are driving",
+            "description": "You turn your vehicle completely around, driving in the opposite direction of combat. Unless a pursuing vehicle can reverse by the end of the round, your vehicle leaves the combat encounter at the start of the next round.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Boss Around",
+            "level": "1st",
+            "school": "Instinct",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "1 Round",
+            "components": "None",
+            "description": "You summon as much authority as you can muster and speak a one-word command to a target you can see within range. The target must make a Wisdom saving throw or follow the command on its next turn. The gambit has no effect if your command is directly harmful to it.",
+            "tags": ["control"]
+        },
+
+        {
+            "name": "Bread Crumbs",
+            "level": "Trick",
+            "school": "Scrounge",
+            "range": "Self",
+            "pull": "Instantaneous",
+            "duration": "Concentration, up to 24 hours",
+            "components": "One scrap of your choice per hour, consumed",
+            "description": "You drop small amounts of a material you have with you, creating an easily traceable trail, granting advantage on all checks made to follow the trail for the duration.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Break Through",
+            "level": "Trick",
+            "school": "Daredevil",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Mechanical tool set or heavy melee weapon",
+            "description": "You break through a section of wall in a ruined building or other structure, allowing creatures of your size, allowing creatures of your size or smaller to pass through. You may pull this gambit without tools or a melee weapon, after which you take 2d6 bludgeoning damage smashing through the wall.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Bring Back",
+            "level": "3rd",
+            "broken": "small",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "8 hours",
+            "duration": "Instantaneous",
+            "components": "Three appropriate scraps, consumed",
+            "description": "You bring a broken handheld target item back to its original manufactured condition. All notches of damage are repaired and the item is at full hit points, all negative conditions are removed. It functions like new, so long as it does not require fuel or batteries.",
+            "higher": "When you pull this gambit using a slot of 4th level or higher, and expend one additional scrap per level, the size of the target item may be increased at the GM's discretion.",
+            "tags": ["utility", "repair"]
+        },
+
+        {
+            "name": "Burn Out",
+            "level": "2nd",
+            "school": "Scrounge",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You destroy an item held by a target creature within range. The target must make a Dexterity saving throw or take 4d6 piercing damage as it explodes in their hand.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Burrow Under",
+            "level": "2nd",
+            "school": "Scrounge",
+            "range": "Self",
+            "pull": "1 Hour",
+            "duration": "Instantaneous",
+            "components": "A shovel or other long tool",
+            "description": "You create a 5 foot wide tunnel up to 30 feet deep into a wall or the ground, so long as the material is rubble or other loose items.",
+            "tags": ["movement"]
+        },
+
+        {
+            "name": "Button Mash",
+            "level": "Trick",
+            "school": "Old Ways",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "One electronic scrap, consumed",
+            "description": "You activate the primary function of a hand held electronic device or machine you hold in your hands, even if you do not know what it will do.",
+            "tags": ["utility", "repair"]
+        },
+
+        {
+            "name": "Calm Beast",
+            "level": "Trick",
+            "school": "Wilderness",
+            "range": "15 Feet",
+            "pull": "Action",
+            "duration": "24 Hours",
+            "components": "One animal or herbal scrap, consumed",
+            "description": "A beast within range must make a Charisma saving throw or be Charmed by you for the duration.",
+            "tags": ["charm"]
+        },
+
+        {
+            "name": "Camaraderie",
+            "level": "2nd",
+            "school": "Civility",
+            "range": "10 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "None",
+            "description": "You share in your victories. Choose a target within range that can see you. For the duration, the target may choose to benefit as an additional target from any gambits you pull on yourself.",
+            "higher": "When you pull this gambit using a slot of 3rd level or higher, you may select one additional target per slot level above 2nd.",
+            "tags": ["buff", "test"]
+        },
+
+        {
+            "name": "Captivate",
+            "level": "2nd",
+            "broken": "small",
+            "school": "Civility",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "You weave a distracting string of words, causing targets of your choice that you can see within range and that can hear you to make a Wisdom saving throw. Any target that can't be charmed succeeds on this saving throw automatically, and if you or your companions are fighting a target, it has advantage on the save. On a failed save, a target has disadvantage on Perception checks made to perceive any creature other than you until the gambit ends or until the target can no longer hear you. The gambit ends if you are incapacitated or can no longer speak.",
+            "tags": ["control"]
+        },
+
+        {
+            "name": "Catlike Reflexes",
+            "level": "7th",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "4 Hours",
+            "components": "None",
+            "description": "You gain 6 points to your Dexterity score for the duration, even if this puts you above your normal ability score limit, and you may Disengage as a reaction.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Cauterize",
+            "level": "2nd",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "10 Minutes",
+            "duration": "1 Hour",
+            "components": "Two glass or metal scraps, consumed",
+            "description": "You use a heat source to stop bleeding and patch up a target, healing them for 10d6 hit points. Target creature must make a Constitution saving throw or fall unconscious for the duration from pain. You must succeed in a melee gambit attack to pull this gambit if the target is unwilling. At the end of the duration, the target has a bitchin' scar.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Cold-Blooded",
+            "level": "2nd",
+            "school": "Slaying",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "Melee weapon",
+            "description": "For the duration, your melee weapons have the Reach property and deal 3d6 additional damage on hits with melee weapons against creatures who cannot see you.",
+            "higher": "When you pull this gambit using a slot of 3rd level or higher, the damage dealt is increased by 1d6 per slot level above 2nd.",
+            "tags": ["damage", "buff"]
+        },
+
+        {
+            "name": "Concuss",
+            "level": "3rd",
+            "broken": "med",
+            "school": "Slaying",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "Make a melee gambit attack. On hit, the target must make a Constitution saving throw or become Slowed for the duration. The affected target’s speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, it can’t use reactions and it may only take one action or one bonus action. A target may make a Constitution save at the end of its turn. On a successful save, they are no longer Slowed.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Contingency Plan",
+            "level": "3rd",
+            "school": "Foresight",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Five appropriate scraps, consumed",
+            "description": "You prepared for this. A target of your choice regains all hit points lost and removes all conditions applied this round.",
+            "higher": "When you pull this gambit using a slot of 4th level or higher, and expend one additional scrap per level, you may select one additional target per slot level above 3rd.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Convenient Shield",
+            "level": "2nd",
+            "broken": "x-small",
+            "school": "Scrounge",
+            "range": "Self",
+            "pull": "Reaction*",
+            "note": "* - upon taking damage",
+            "duration": "Instantaneous",
+            "components": "At least one scrap, consumed",
+            "description": "Your protect yourself with your backpack. Roll 1d8. Remove a number of scraps from your inventory and reduce damage by the roll. If you have fewer scraps than the roll, a random item is destroyed and damage is reduced by the scraps available. If damage is reduced to 0, you may immediately disengage and move your speed.",
+            "higher": "When you pull this gambit using a slot of 3rd level or higher, and expend one additional scrap per level, you may roll an additional 1d8 per slot level above 2nd.",
+            "tags": ["healing", "movement", "defense"]
+        },
+
+        {
+            "name": "Convenient Weapon",
+            "level": "1st",
+            "school": "Foresight",
+            "range": "10 Feet",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "An improvised weapon",
+            "description": "You grab an object within range, wielding it as an improvised weapon. For the duration, attacks with this weapon are made with proficiency and whenever you take the attack action while wielding this weapon, you may use your bonus action to make a second attack.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Coordinate",
+            "level": "1st",
+            "school": "Civility",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "None",
+            "description": "You work together. Choose up to three friendly targets within range. For the duration, yourself and and the targets may take the Help action as a bonus action.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, you may select one additional target per slot level above 1st.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Crack Open",
+            "level": "Trick",
+            "school": "Scrounge",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Appropriate tools",
+            "description": "Choose a target item that is no larger than a 3 foot cube. You strip it entirely for parts, salvaging 1d12 scraps of its primary material from it and leave practically nothing behind.",
+            "higher": "The number of scraps gained increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Creature of the Night",
+            "level": "5th",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "8 Hours",
+            "components": "Five glass and electronic scraps",
+            "description": "You can see normally in darkness so long as the stars are visible, you gain +2 to your AC while in the shadows or darkness of any kind and your speed increases by 5 feet.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Dance All Night",
+            "level": "7th",
+            "school": "Old Ways",
+            "range": "150 Feet",
+            "pull": "Long Rest",
+            "duration": "24 Hours",
+            "components": "A source of music",
+            "description": "You and any targets within range stay up all night as a Long rest, partying all night as you pull this gambit. At the end of this time you are all Well-Rested and you are resistant to psychic damage for the duration.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Dead End",
+            "level": "2nd",
+            "school": "Slaying",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "A melee weapon",
+            "description": "Make a melee gambit attack against any creature that has 10 or fewer current hit points. On a hit, you deal no damage; the target is simply killed.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Death on the Line",
+            "level": "4th",
+            "school": "Foresight",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "24 Hours",
+            "components": "Five chemical or herbal scraps, consumed",
+            "description": "You retroactively poison a meal or drink to which you had access within the last day. Any creature that consumes it within the duration must make a Constitution saving throw or take 4d6 poison damage and become Poisoned for the duration. On a successful save, they take half damage and are not Poisoned.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Decipher the Past",
+            "level": "Trick",
+            "school": "Old Ways",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "One glass or plastic scrap",
+            "description": "You tour a ruined location and piece together its original purpose, as well as the major events in its history.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Deep Wound",
+            "level": "2nd",
+            "broken": "med",
+            "school": "Slaying",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "A melee weapon that deals piercing damage",
+            "description": "Make a melee gambit attack against a target within range. On a hit, deal normal damage and the target becomes grappled by you, stuck to your weapon. At the start of the target's turns, it takes 1d6 piercing damage until it escapes from the grapple. The target may attempt a contested Athletics check at the end of its turn. On a successful check, it breaks free from the grapple.",
+            "tags": ["damage", "movement"]
+        },
+
+        {
+            "name": "Deescalate",
+            "level": "3rd",
+            "broken": "small",
+            "school": "Civility",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "None",
+            "description": "You speak calmly and attempt to suppress hostility in the area. Each hostile target within range must make a Charisma saving throw. On a failed save: <br /> The targets are unaffected by the Charmed and Frightened conditions for the duration, after which those effects resume provided their durations have not expired in the meantime <br /> OR the target is indifferent about creatures of your choice that it is hostile toward. The effects of this gambit end when hostility resumes, or affected targets or their ally takes damage.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Desperate Swing",
+            "level": "5th",
+            "school": "Slaying",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "Your next melee weapon attack made within the duration automatically hits and deals 5d6 additional damage. Until the start of your next turn, all melee attacks against you are made with advantage.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Desperation",
+            "level": "3rd",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "For the duration whenever you hit with an attack you may deal an additional 3d6 damage, but also take 1d6 irreducible psychic damage.",
+            "higher": "When you pull this gambit using a slot of 4th level or higher, the damage dealt is increased by 1d6 per slot level above 3rd.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Diagram",
+            "level": "2nd",
+            "school": "Patching",
+            "range": "Self",
+            "pull": "1 Hour",
+            "duration": "Instantaneous",
+            "components": "Two cloth and wood scraps",
+            "description": "You create a diagram of a machine or device you have seen. Anyone in possession of this diagram gains advantage on rolls to repair or construct that kind of item.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Dirty Trick",
+            "level": "4th",
+            "broken": "med",
+            "school": "Slaying",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Melee weapon",
+            "description": "You fight dirty. Make a low swung melee attack against a target within range. On a hit, deal an additional 2d6 damage, and the target must make a Constitution saving throw. On a failed save, the target is Blinded until the end of its next turn.",
+            "higher": "When you pull this gambit using a slot of 5th level or higher, the damage dealt is increased by 1d6 per slot level above 4th.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Disapproving Smite",
+            "level": "3rd",
+            "broken": "small",
+            "school": "Civility",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "You channel your disapproval into your attack. Make a melee gambit attack against a target within range. On a hit, you deal normal damage plus an additional 2d6 psychic damage and the target must succeed in a Wisdom saving throw or become Frightened for the duration. A target may make a Wisdom saving throw at the end of its turn. On a successful save, they are no longer Frightened.",
+            "higher": "When you pull this gambit using a slot of 4th level or higher, the damage dealt is increased by 1d6 per slot level above 3rd.",
+            "tags": ["damage", "debuff"]
+        },
+
+        {
+            "name": "Disinfect",
+            "level": "3rd",
+            "school": "Old Ways",
+            "range": "30 Feet",
+            "pull": "1 Hour",
+            "duration": "8 Hours",
+            "components": "Three chemical, cloth and glass scraps, consumed",
+            "description": "You disinfect target area such that all creatures within the area are resistant to necrotic damage and enjoy advantage on saves to resist disease while they remain here.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Disorient",
+            "level": "2nd",
+            "school": "Slaying",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "Make a melee gambit attack against a target in range. On a hit, you deal normal damage and the target must make a Constitution saving throw or become Stunned until the end of their next turn.",
+            "tags": ["damage", "debuff"]
+        },
+        {
+            "name": "Domestication",
+            "level": "2nd",
+            "school": "Civility",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "24 Hours",
+            "components": "Two animal or herbal scraps, consumed",
+            "description": "Up to 6 beasts within range must make a Wisdom saving throw or become Charmed by you and your allies for the duration. If they are one or more size categories larger than you, they may be ridden as mounts.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Do Some Harm",
+            "level": "3rd",
+            "school": "Patching",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "1 Round",
+            "components": "Three chemical or herbal scraps, consumed",
+            "description": "You throw some poison. Make a ranged gambit attack against a target within range. On a hit, you deal 1d8 necrotic damage and the target must make a Constitution saving throw or become Poisoned until the end of their next turn.",
+            "tags": ["debuff", "damage"]
+        },
+
+        {
+            "name": "Dress for Success",
+            "level": "3rd",
+            "school": "Old Ways",
+            "range": "Self",
+            "pull": "1 Hour",
+            "duration": "8 Hours",
+            "components": "Three cloth scraps, consumed",
+            "description": "You take some time to get into character. Select one Charisma skill. For the duration, you have advantage on that skill.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Dual Strike",
+            "level": "Trick",
+            "school": "Daredevil",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You attempt a melee attack against two targets. Make a single attack roll to hit both, against the higher of their to AC ratings. On a hit, you strike both targets with your attack, dealing half damage to both.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Exploit Advantage",
+            "level": "4th",
+            "school": "Slaying",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "Four glass or plastic scraps, consumed",
+            "description": "For the duration, whenever you make an attack with advantage and hit, the target is vulnerable to the damage you deal.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Extra Pair of Hands",
+            "level": "2nd",
+            "school": "Patching",
+            "range": "30 Feet",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "An allied character of your choice may take an action on your turn, in addition to their own, instead of you for this round.",
+            "tags": ["buff", "utility"]
+        },
+
+        {
+            "name": "Ferality",
+            "level": "2nd",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "1 Hour",
+            "components": "Two animal or herbal scraps, consumed",
+            "description": "You are able to read the body language and subtle grunts of animals, allowing you to know their mood and disposition towards you. You have advantage on Animal Handling checks and Insight checks related to animals for the duration.",
+            "tags": ["buff", "utility"]
+        },
+
+        {
+            "name": "Final Swing",
+            "level": "6th",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "Bonus Action",
+            "duration": "1 Hour",
+            "components": "None",
+            "description": "You push a melee weapon you are wielding to its limits. The next time you hit with this weapon, it deals an additional 5d6 slashing damage, and then takes 5 notches of damage.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Find a Way",
+            "level": "2nd",
+            "school": "Scrounge",
+            "range": "1 Mile",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Two glass scraps, a map of the region",
+            "description": "You figure out a route to a target location within range you've either heard of or been to.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Find Civilization",
+            "level": "1st",
+            "school": "Civility",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "One glass scrap",
+            "description": "Studying the area, you are able to learn the distance and direction of the closest settlement.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Find Shelter",
+            "level": "2nd",
+            "school": "Wilderness",
+            "range": "30 Feet",
+            "pull": "1 Hour",
+            "duration": "8 Hours",
+            "components": "Two metal, wood or cloth scraps, consumed",
+            "description": "You find a place within range to shelter from an environmental hazard for the duration. For the duration, you and up to three targets within range can shelter there and take no damage or other effects from the environment.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Fire Through",
+            "level": "3rd",
+            "school": "Daredevil",
+            "range": "Weapon Range",
+            "pull": "Bonus Action",
+            "duration": "3 Rounds",
+            "components": "None",
+            "description": "You get your ducks in a row. Choose up to three targets in a line from your position and make a ranged attack against the highest of their AC. On a hit, each target is hit by the attack, the damage reducing in die type from the nearest to the furthest",
+            "higher": "When you pull this gambit using a slot of 4th level or higher, you may select one additional target per slot level above 3rd.",
+            "tags": ["damage", "utility"]
+        },
+
+        {
+            "name": "Flight",
+            "level": "2nd",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Reaction*",
+            "note": "* - Upon taking damage",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "You may take the disengage action and immediately move up to your speed.",
+            "tags": ["utility", "movement"]
+        },
+
+        {
+            "name": "Focused Strike",
+            "level": "Trick",
+            "school": "Instinct",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 round",
+            "components": "None",
+            "description": "You study a target, granting you insight into their defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this gambit hasn't ended.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Fool's Gold",
+            "level": "3rd",
+            "school": "Scrounge",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "48 Hours",
+            "components": "Any number of scraps",
+            "description": "You disguise a number of scraps to appear as another material of similar properties. The disguise lasts the duration, or until a creature makes an Insight check against your Gambit save.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Forage",
+            "level": "1st",
+            "school": "Scrounge",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Ten herbal scraps, consumed",
+            "description": "You forage up to 10 very good berries from the surrounding area. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for one day. The berries lose their potency if they have not been consumed within 24 hours of the pulling this gambit.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Foreknowledge",
+            "level": "3rd",
+            "school": "Foresight",
+            "range": "1 Mile",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Three cloth and metal scraps, consumed",
+            "description": "You gain a map of the area (everywhere within range) that you drew when you scouted this place out recently.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Fresh Coat of Paint",
+            "level": "1st",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "One glass, metal or wood scrap, consumed",
+            "description": "A target vehicle that you touch has one negative condition removed and is repaired for 1d6 hit points.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, and expend one additional scrap per level, the repairs granted are increased by 1d6 per slot level above 1st.",
+            "tags": ["utility", "repair"]
+        },
+
+        {
+            "name": "Fuel Injection",
+            "level": "Trick",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "One unit of fuel, consumed",
+            "description": "You hit the NOS and a vehicle that you are riding in moves its speed forward immediately.",
+            "tags": ["utility", "movement"]
+        },
+
+        {
+            "name": "Growl",
+            "level": "3rd",
+            "broken": "small",
+            "school": "Instinct",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "Choose up to 5 targets within range. Each target must make a Wisdom saving throw or become Frightened of you for the duration, and they must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the target ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, they are no longer frightened.",
+            "tags": ["debuff", "movement"]
+        },
+
+        {
+            "name": "Hail Mary",
+            "level": "1st",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "One glass or plastic scrap, consumed",
+            "description": "For the duration you suffer no disadvantage when making attacks against targets you cannot see.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Heist",
+            "level": "5th",
+            "school": "Foresight",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "A map of the target area",
+            "description": "For the duration, you and any friendly targets within range cannot be surprised.",
+            "tags": ["utility", "buff"]
+        },
+
+        {
+            "name": "Helicopter Parenting",
+            "level": "2nd",
+            "school": "Old Ways",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "Reaction*",
+            "note": "* - upon an allied creature gaining a condition",
+            "components": "Two chemical, cloth or herbal scraps",
+            "description": "You bolt to a wounded ally, using your movement and a dash action to get to them. If you end this movement within 5 feet of them, you may expend a chemical scrap to remove that condition.",
+            "tags": ["healing", "movement"]
+        },
+
+        {
+            "name": "Hide In Plain Sight",
+            "level": "1st",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "One cloth and chemical scrap, consumed",
+            "description": "You apply some makeup and hide your most notable features, making yourself nondescript and utterly forgettable for the duration. This disguise will not hold up to close scrutiny (Investigation check against your Gambit DC), but someone glancing or looking at you in your disguise would not recognize you outside of it.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Hill Slide",
+            "level": "Trick",
+            "school": "Wilderness",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "1 Round",
+            "components": "One metal, plastic or wood scrap",
+            "description": "Your Speed is doubled if your movement is entirely on a downward slope.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Hop On",
+            "level": "Trick",
+            "school": "Daredevil",
+            "range": "5 Feet",
+            "pull": "Reaction",
+            "duration": "Concentration, up to 10 Minutes",
+            "components": "None",
+            "description": "You grab onto a vehicle within range, riding its exterior. For the duration, you cannot be knocked prone or off of it due to its maneuvering or other movements.",
+            "tags": ["utility", "movement", "buff"]
+        },
+
+        {
+            "name": "Hunker Down",
+            "level": "Trick",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "None",
+            "description": "You go prone. For the duration, you may move at your normal speed while prone and you may rise from prone as a bonus action.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Ignore the Pain",
+            "level": "3rd",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "You grit your teeth and push through the pain. You gain 3d6 temporary Hit Points that last for the duration or until they are expended.",
+            "higher": "When you pull this gambit using a slot of 4th level or higher, the temporary hit points granted are increased by 1d6 per slot level above 3rd.",
+            "tags": ["healing"]
+        },
+        {
+            "name": "Interrupt",
+            "level": "Trick",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Reaction*",
+            "note": "* - Upon being the target of an attack",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You reflexively attempt to halt an attack on yourself, throwing dirt, rocks, sparks or a wild punch in the direction of your target, distracting them mid attack. Roll 1d4 and subtract the rolled number from the triggering attack roll. If the result is less than your AC, the attack misses.",
+            "tags": ["defense"]
+        },
+        {
+            "name": "Impromptu Cover",
+            "level": "5th",
+            "school": "Scrounge",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "Five metal, plastic or wood scraps, consumed",
+            "description": "You gather up some scraps and build makeshift cover. You and one creature of your choice within range gain 1/2 cover for the duration. You lose cover if you move.",
+            "tags": ["utility", "buff", "defense"]
+        },
+
+        {
+            "name": "Improvised Armor",
+            "level": "1st",
+            "school": "Scrounge",
+            "range": "Touch",
+            "pull": "10 Minutes",
+            "duration": "8 Hours",
+            "components": "Thirteen total cloth, metal, plastic and wood scraps, consumed",
+            "description": "You cobble together some protective armor from what you can find around you that you give to a target of your choice, including yourself. Their base AC becomes 13 + its Dexterity modifier. At the end of the duration, the pieced together armor falls apart from use.",
+            "tags": ["buff", "defense"]
+        },
+
+        {
+            "name": "Improvised Net",
+            "level": "1st",
+            "broken": "x-small",
+            "school": "Scrounge",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "Rope or one cloth or plastic scrap, consumed",
+            "description": "Make a ranged gambit attack against a target within range. On a hit, the target becomes Restrained for the duration. As an action, the target may make a Strength saving throw to escape. The net is flammable and burns away in 1 round, dealing 2d4 fire damage to any creature restrained by it.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, and expend one additional scrap per level, you may select one additional target per slot level above 1st.",
+            "tags": ["debuff", "control"]
+        },
+
+        {
+            "name": "Induced Rivalry",
+            "level": "4th",
+            "school": "Old Ways",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "None",
+            "description": "A target within range who can hear you must make a Wisdom saving throw or become hostile towards a person you name for the duration.",
+            "tags": ["utility", "control"]
+        },
+
+        {
+            "name": "Inner Strength",
+            "level": "1st",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "1 Round",
+            "components": "None",
+            "description": "You dig deep and find strength within yourself. Until the start of your next turn, all Strength checks you make, including Strength based attacks, are made with advantage.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Keep It Together",
+            "level": "Trick",
+            "school": "Civility",
+            "range": "30 Feet",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You speak soft, calming words to a target within range, who loses the Frightened condition at the start of their next turn.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Killer Instinct",
+            "level": "4th",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "You focus your attacks on your targets' weak points. For the duration, your melee attacks that hit count as critical hits.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Knock Out",
+            "level": "2nd",
+            "school": "Slaying",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "Make a melee gambit attack against a target within range. On hit, the target must make a Constitution saving throw or become Unconscious for the duration as you knock them over the head.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Known Foe",
+            "level": "4th",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "You're prepared for this fight. Choose a target you can see. For the duration, the target is vulnerable to any damage you do to it.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Kung-Fu Moves",
+            "level": "1st",
+            "broken": "small",
+            "school": "Slaying",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "For the duration, you may use your bonus action each turn to jump straight toward a target when making a melee attack, increasing your melee range by 5 feet and granting an additional 1d6 damage on hit.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, the granted melee range is increased by 5 feet and the damage dealt increased by 1d6 per slot level above 1st.",
+            "tags": ["movement", "damage"]
+        },
+
+        {
+            "name": "Lash Out",
+            "level": "Trick",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 1 minutes",
+            "components": "None",
+            "description": "For the duration, whenever a hostile creature comes within 5 feet of you, you may use your reaction to attack that creature with disadvantage.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Lay Trap",
+            "level": "2nd",
+            "school": "Wilderness",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "8 Hours, or until trap is triggered",
+            "components": "Two metal and wood scraps, consumed",
+            "description": "You set up a trap in a target location. Any creature that enters the same space as the trap must make a Dexterity saving throw or become Restrained by the trap. A target may make a Dexterity saving throw at the end of its turn. On a successful save, they are no longer Restrained.",
+            "tags": ["movement", "debuff"]
+        },
+
+        {
+            "name": "Lead By Example",
+            "level": "Trick",
+            "school": "Civility",
+            "range": "60 Feet",
+            "pull": "Bonus Action",
+            "duration": "1 Round",
+            "components": "None",
+            "description": "After pulling this gambit, friendly targets within range that can see you have advantage on the next action they take if it is the same action you took on your turn.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Leadership",
+            "level": "2nd",
+            "school": "Civility",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "Select a target within range to act as leader. All friendly creatures who can hear the target have access to that character's known Tricks, pulling them using their own gambit ability.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Leap, Then Look",
+            "level": "Trick",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "1 Round",
+            "components": "None",
+            "description": "For the duration, your jump distance increases 10 feet and you have advantage on Dexterity saving throws.",
+            "tags": ["movement"]
+        },
+
+        {
+            "name": "Left Behind",
+            "level": "Trick",
+            "school": "Foresight",
+            "range": "Touch",
+            "pull": "Reaction",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You retroactively decide to leave an item you possess back at camp or your home instead of bringing it with you. May be used to keep the item from being stolen, lost or taking damage.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Limb Strike",
+            "level": "4th",
+            "broken": "med",
+            "school": "Slaying",
+            "range": "5 feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "Melee weapon",
+            "description": "Make a melee gambit attack against a target within range. On a hit, you deal 3d6 damage, and the target either drops one item held or takes a 10 foot penalty to their speed for the duration.",
+            "higher": "When you pull this gambit using a slot of 5th level or higher, damage dealt is increased by 1d6 and the movement penalty is increased by 10 feet per slot level above 1st. If the target's movement is reduced to 0, they are knocked prone.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Liquid Courage",
+            "level": "4th",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "4 Hours",
+            "components": "One bottle of liquor, consumed",
+            "description": "A creature of your choice becomes immune to the Frightened condition and receives 3d6 temporary hitpoints for the duration.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Live, Damn You, Live!",
+            "level": "2nd",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Two electronic scraps, two batteries, consumed",
+            "description": "You piece together a makeshift defibrillator. An unconscious creature at 0 hit points you touch is healed for 1d6 hit points for each friendly creature within 5 feet of them.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Live Wild",
+            "level": "3rd",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 8 hours",
+            "components": "None",
+            "description": "You get your second wind. For the duration, you may ignore the effects of up to two points of exhaustion. At the end of the duration, gain an additional point of exhaustion.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Look Ahead",
+            "level": "1st",
+            "school": "Foresight",
+            "range": "300 Feet",
+            "pull": "1 Hour",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You learn the location of all walls and other terrain features within range, having scouted the area earlier.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Look the Part",
+            "level": "1st",
+            "school": "Old Ways",
+            "range": "Self",
+            "pull": "1 Hour",
+            "duration": "Concentration, up to 8 hours",
+            "components": "One cloth scrap, consumed",
+            "description": "You construct an outfit from the past, using it to gain insight in to the old ways. For the duration, whenever you recall or learn a piece of information about the past, you learn an additional bit of knowledge.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Machinehead",
+            "level": "2nd",
+            "school": "Patching",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "Two metal scraps, consumed",
+            "description": "You tinker with the vehicle you're riding in. For the duration, its speed is increased by 10 feet.",
+            "higher": "When you pull this gambit at 3rd level or higher, and expend an additional scrap per level, the granted movement speed is increased by 10 feet.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Make Weak",
+            "level": "3rd",
+            "school": "Slaying",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "Three chemical or herbal scraps, consumed",
+            "description": "You toss a handful of chemicals at a target within range. The target must make a Constitution saving throw or become vulnerable to a damage type of your choice for the duration.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Make Friends",
+            "level": "1st",
+            "broken": "small",
+            "school": "Civility",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "None",
+            "description": "You play nice, put your best foot forward and attempt to charm a target you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your allies are fighting it. On a failed save, it is Charmed by you and regards you as a friendly acquaintance until you or your companions do anything harmful to it.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, you may select one additional target per slot level above 1st.",
+            "tags": ["charm"]
+        },
+
+        {
+            "name": "Makeshift Ammo",
+            "level": "Trick",
+            "school": "Scrounge",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "One metal or wood scrap, consumed",
+            "description": "You create 1d4 ammunition of a type that corresponds with the scraps used to pull this gambit. While using the generated ammo, a critical miss breaks the weapon using them, and critical hits count only as regular hits.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Make Strong",
+            "level": "3rd",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "10 Minutes",
+            "duration": "10 Minutes",
+            "components": "Three chemical, metal or wood scraps, consumed",
+            "description": "You fit a friendly target's armor with additional protection, granting it resistance to a damage type of your choice for the duration.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Manipulation",
+            "level": "7th",
+            "school": "Foresight",
+            "range": "120 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "None",
+            "description": "For the duration, whenever a target within range attempts to move, they must make an Intelligence saving throw or you get to decide where they move.",
+            "tags": ["movement", "compulsion"]
+        },
+
+        {
+            "name": "Mass Heal Wounds",
+            "level": "5th",
+            "school": "Patching",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Five cloth, chemical or herbal scraps, consumed",
+            "description": "You set up a small triage and patch up up to 6 targets within range. Each target regains hit points equal to 3d8 + your gambit ability modifier.",
+            "higher": "When you pull this gambit using a slot of 6th level or higher, and expend one additional scrap per level, the healing granted is increased by 1d8 per slot level above 5th.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Military Drills",
+            "level": "2nd",
+            "broken": "small",
+            "school": "Old Ways",
+            "range": "120 Feet",
+            "pull": "8 Hours",
+            "duration": "48 Hours",
+            "components": "Two metal or wood scraps, consumed",
+            "description": "You set up a training ground and engage up to 5 targets within range in training. For the duration, the targets are proficient in the use of a weapon and a skill of your choice that you are proficient with.",
+            "higher": "When you pull this gambit using a slot of 3rd level or higher, and expend one additional scrap per level, you may select one additional target per slot level above 2nd.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Mobile Foraging",
+            "level": "Trick",
+            "school": "Wilderness",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 4 hours",
+            "components": "None",
+            "description": "Every 10 minutes as you travel, you scrounge up one scrap of a random type",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Motherlode",
+            "level": "3rd",
+            "school": "Scrounge",
+            "range": "120 Feet",
+            "pull": "Action",
+            "duration": "24 Hours",
+            "components": "None",
+            "description": "You dig around a little deeper and find the motherlode. A source of scraps within range has 30 additional material scraps of a random type",
+            "higher": "When you pull this gambit using a slot of 4th level or higher, the number of additional scraps found is increased by 10 per slot level above 3rd.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Multitask",
+            "level": "1st",
+            "school": "Patching",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "A handheld tool",
+            "description": "For the duration, whenever you use a tool as an improvised weapon, you may also repair an item within range for 1d6 hit points.",
+            "tags": ["utility", "repair"]
+        },
+
+        {
+            "name": "Night Harvest",
+            "level": "2nd",
+            "school": "Scrounge",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 4 Hours",
+            "components": "Two cloth scraps, consumed",
+            "description": "For the duration, you and up to three other targets within range have advantage on Stealth rolls and make no noise from the process of salvaging and scavenging.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Officiate Duel",
+            "level": "3rd",
+            "school": "Civility",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "Badge of office or other symbol of authority",
+            "description": "Choose two targets within range who can hear you. Each target must make a Wisdom saving throw or become exclusively hostile to the other target for the duration.",
+            "tags": ["utility", "control"]
+        },
+
+        {
+            "name": "Oldies",
+            "level": "1st",
+            "school": "Old Ways",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "None",
+            "description": "You sing songs from the pre-apocalypse, boosting everyone's spirits. Targets who can hear you hear for 1d6 additional hit points whenever they are healed, including during rests and when healed by gambits.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Old Paths",
+            "level": "1st",
+            "school": "Old Ways",
+            "range": "10 Miles",
+            "pull": "Action",
+            "duration": "24 Hours",
+            "components": "None",
+            "description": "You study maps of the area and learn the location of the closest rivers or pre-apocalypse roads.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "On the Wind",
+            "level": "3rd",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Reaction*",
+            "note": "* - upon being the target of an attack",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "The attack which triggers this gambit automatically misses. You may immediately Disengage and then move up to your speed. For the duration, your movement does not trigger opportunity attacks.",
+            "tags": ["utility", "movement"]
+        },
+
+        {
+            "name": "Packing",
+            "level": "Trick",
+            "school": "Foresight",
+            "range": "Touch",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "Backpack",
+            "description": "You remember to have brought an item you have back at camp or at home. It is now in your possession.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Painful Strikes",
+            "level": "5th",
+            "school": "Slaying",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "None",
+            "description": "For the duration, whenever you deal damage with a melee weapon, you deal an additional 3d6 psychic damage to the target and the target must make a Constitution saving throw or become stunned for one round.",
+            "tags": ["damage", "debuff"]
+        },
+
+        {
+            "name": "Pep Talk",
+            "level": "1st",
+            "school": "Instinct",
+            "range": "30 feet",
+            "pull": "1 Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "You send some encouragement to up to three targets within range. For the duration, each target may roll 1d4 and add the number rolled to any attack roll or saving throw.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, you may select one additional target per slot level above 1st.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Pill Popping",
+            "level": "1st",
+            "school": "Patching",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "At least one chemical or herbal scrap, consumed",
+            "description": "You pop some pills or herbs you found...somewhere and heal yourself for a number of hit points equal to the scraps consumed pulling this gambit.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Plan of Action",
+            "level": "6th",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "4 Hours",
+            "components": "None",
+            "description": "Upon pulling this gambit you must name the next three gambits you plan to pull, each with a pull time of 1 action. So long as you stick to this plan, pulling those gambits in that order, pulling those gambits only takes a bonus action.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Poisonous Weapons",
+            "level": "1st",
+            "school": "Wilderness",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "Two chemical or herbal scraps, consumed",
+            "description": "You smear a chemical or herbal paste on a target melee weapon or ammunition for a ranged weapon. Hits with that weapon deal an additional 1d8 poison damage for the duration.",
+            "tags": ["buff", "damage"]
+        },
+
+        {
+            "name": "Poke",
+            "level": "Trick",
+            "school": "Slaying",
+            "range": "5 Feet",
+            "pull": "Action",
+            "components": "None",
+            "description": "Make a melee gambit attack against a target within range. On hit you deal 1d6 additional damage and the target is pushed 15 feet away from you.",
+            "tags": ["damage"]
+        },
+        {
+            "name": "Positioning",
+            "level": "Trick",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "Reaction*",
+            "note": "* - upon completing your turn",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You retroactively decide to move differently, perhaps to a location that doesn't trigger a trap or doesn't put you in range of an attack. The effects of your turn, any damage or conditions you took or dealt and any movement expended is undone. You do not take your turn again.",
+            "tags": ["utility"]
+        },
+        {
+            "name": "Powerful Scent",
+            "level": "3rd",
+            "school": "Instinct",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "Three animal scraps",
+            "description": "Beasts that come within range must make a Wisdom saving throw or become Frightened of you for the duration.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Precision",
+            "level": "2nd",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "For the duration, you gain the ability to take the Aim action as a bonus action.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Predation",
+            "level": "6th",
+            "school": "Instinct",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "Six cloth scraps",
+            "description": "You blend into the shadows, avoiding detection. A target within range of your choice must make a Constitution saving throw or become Blind to you whenever you are more than 5 feet away from them. The target may make a Constitution saving throw at the end of its turn. On a successful save, they are no longer Blind.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Predatory Stance",
+            "level": "6th",
+            "school": "Wilderness",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 4 hours",
+            "components": "Six animal scraps, consumed",
+            "description": "For the duration, hostile beasts have disadvantage on attacks made against you.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Prediction",
+            "level": "Trick",
+            "school": "Foresight",
+            "range": "120 Feet",
+            "pull": "Reaction*",
+            "note": "* - upon the start of a hostile target's turn",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "Choose an action that you think the target of this gambit may take. If they take that action, you gain advantage on any action taken against the target until the start of your next turn.",
+            "tags": ["buff"]
+        },
+
+
+
+        {
+            "name": "Prepared Lies",
+            "level": "3rd",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "None",
+            "description": "For the duration, you gain advantage on Deception skill rolls made to lie, because you planned out your lies ahead of time.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Profound Insight",
+            "level": "2nd",
+            "broken": "x-small",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "Your experience reading people gives you keen insight into their thoughts. You read the surface thoughts—what is most on its mind-of a target within 30 feet that you can see. As an action, you can either shift your attention to another target or attempt to read further into the same target. If you read deeper, the target must make a Deception check. If it fails, you gain deep insight into its thoughts. The target knows it is being read, and may make a Deception check at the end of its turn. If it succeeds, the gambit ends. <br /> Questions verbally directed at the target creature naturally shape the course of its thoughts, so this gambit is particularly effective as part of an interrogation.",
+            "tags": ["utility"]
+        },
+        {
+            "name": "Projection",
+            "level": "Trick",
+            "school": "Instinct",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "Technomancer Drone or Robot",
+            "description": "Your Drone or Robot projects a two or three-dimensional holographic image of an object or person no larger than a 10-foot cube at a point you select within its range. As an action, you can move the projection. Any inspection beyond passive observation reveals the image to be fake.",
+            "tags": ["utility"]
+        },
+        {
+            "name": "Propriety",
+            "level": "Trick",
+            "school": "Old Ways",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "None",
+            "description": "You treat a target within range with a level of respect rarely seen in the post-apocalypse, such that they must make a Charisma saving throw or be unable to speak ill of you or harm you in any direct way for the duration.",
+            "tags": ["utility", "debuff"]
+        },
+
+        {
+            "name": "Rally",
+            "level": "3rd",
+            "school": "Civility",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Three cloth scraps",
+            "description": "Choose up to three targets within range who can see or hear you. Each target loses the frightened condition and may immediately use their reaction to move their speed, so long as they are not moving away from battle.",
+            "tags": ["utility", "movement"]
+        },
+
+        {
+            "name": "Regular Maintenance",
+            "level": "4th",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "1 Minute",
+            "duration": "4 Hours",
+            "components": "Four electronic or metal scraps, consumed",
+            "description": "You do a quick tune up on an item and really grease the gears and the target item becomes resistant to all damage for the duration.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Relentless Killer",
+            "level": "1st",
+            "school": "Slaying",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "1 hour",
+            "components": "None",
+            "description": "For the duration, your speed is increased by 10 feet, you may not be pushed or moved against your will and you cannot be knocked prone, and all attacks you make against foes who have not taken actions against you have advantage.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Remember the 90's",
+            "level": "Trick",
+            "school": "Old School",
+            "range": "150 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "You recall a piece of trivia about an object or place within range that you can see. For the duration, all Intelligence skill checks related to the target you make for the duration are made with advantage.",
+            "tags": ["utility", "buff"]
+        },
+
+        {
+            "name": "Rendezvous",
+            "level": "3rd",
+            "school": "Civility",
+            "range": "10 Miles",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "Your location at the end of the pull time was retroactively decided to be a rendezvous site. One friendly target you have seen in the last day within range meets you at your location.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Repetition",
+            "level": "3rd",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "None",
+            "description": "For the duration, if you take the same action on your turn as the action you took on your previous turn, you have advantage on skill rolls related to this action.",
+            "tags": ["utility", "buff"]
+        },
+
+        {
+            "name": "Risky Shot",
+            "level": "Trick",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "1 Round",
+            "components": "None",
+            "description": "For the duration, your range with ranged weapons is doubled. On a miss, your shot hits the nearest creature, friend or foe.",
+            "tags": ["utility", "damage"]
+        },
+
+        {
+            "name": "Road Rage",
+            "level": "2nd",
+            "school": "Old Ways",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "A vehicle you are piloting",
+            "description": "You use your vehicle to push a target vehicle within range. The target must make a Strength saving throw or be pushed out of the combat encounter. For 1d6 rounds, you become easy to anger, with disadvantage on rolls to resist being goaded into violence.",
+            "tags": ["movement", "debuff"]
+        },
+
+        {
+            "name": "Run Away!",
+            "level": "1st",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "You run as fast as possible, as long as it's away. When you pull this gambit, and then as a bonus action on each of your turns until the gambit ends, you can take the Dash action.",
+            "tags": ["movement"]
+        },
+
+        {
+            "name": "Running Leap",
+            "level": "Trick",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You move your speed in a straight line and then take a leap up to 10 feet vertically. On your next turn, your first melee attack deals 1d6 additional damage.",
+            "tags": ["movement", "buff"]
+        },
+
+        {
+            "name": "Sacrifice Item",
+            "level": "Trick",
+            "school": "Scrounge",
+            "range": "Touch",
+            "pull": "Reaction*",
+            "note": "* - upon being the target of an attack",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You use an item you are holding to shield you from an attack. Roll 1d8 and subtract the number from the incoming damage. The target item protects you from the worst of it, but is destroyed.",
+            "higher": "This gambit’s damage reduction increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+            "tags": ["utility", "defense"]
+        },
+
+        {
+            "name": "Salvage Search",
+            "level": "3rd",
+            "school": "Wilderness",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You scout the area and learn the location and distance to the nearest large source of scraps within range (animal, herbal, wood).",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Savage Ridicule",
+            "level": "Trick",
+            "school": "Old Ways",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You unleash a string of insults at a target within range who can hear you. The target must succeed a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.",
+            "higher": "This gambit's damage increases by 1d4 when you reach 5th Level (2d4), 11th level (3d4), and 17th level (4d4).",
+            "tags": ["debuff", "damage"]
+        },
+
+        {
+            "name": "Scout's Honor",
+            "level": "1st",
+            "school": "Wilderness",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "None",
+            "description": "Targets within range who can hear and see you must make a Charisma saving throw. On a failed save, for the duration, a target is compelled to believe anything you tell them, within reason. During the duration, an affected target will rationalize being shown any evidence of your deception unless they witness you doing something deceptive, at which point the gambit's effects end.",
+            "tags": ["debuff", "utility"]
+        },
+
+        {
+            "name": "See the Problem",
+            "level": "4th",
+            "school": "Patching",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "Four cloth or metal scraps, consumed",
+            "description": "You learn what is needed to heal or repair a target within sight. If you act on that information within the duration, the target regains all lost hit points.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Semaphore",
+            "level": "3rd",
+            "school": "Instinct",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "Three cloth scraps",
+            "description": "You and your allies within range are able to communicate non-verbally with each other, so long as you remain within range and can each see one another.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Side Swipe",
+            "level": "1st",
+            "school": "Daredevil",
+            "range": "10 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You move a vehicle you are driving adjacent to a target vehicle within range, causing both vehicles to take 2d10 bludgeoning damage. Any rider on the exterior of both vehicles must make a Dexterity saving throw to stay on. The target vehicle must make a Dexterity saving throw or be moved 20 feet away from you.",
+            "tags": ["movement", "damage"]
+        },
+
+        {
+            "name": "Skitter",
+            "level": "3rd",
+            "school": "Instinct",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "Three cloth or herbal scraps",
+            "description": "You camouflage yourself for the area. For the duration you become Invisible whenever you are prone.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Slam",
+            "level": "5th",
+            "school": "Instinct",
+            "range": "5 Feet",
+            "pull": "Action",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "Make a melee gambit attack against a target within range. On a hit, the target takes 5d6 bludgeoning damage, is knocked prone and must make a Constitution saving throw or become Stunned for the duration. The target may make a Constitution saving throw at the end of their turn. On a successful save, they are no longer Stunned.",
+            "tags": ["debuff", "damage", "movement"]
+        },
+
+        {
+            "name": "Smell Fear",
+            "level": "1st",
+            "school": "Instinct",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "You sense any creatures within range that are suffering from the Frightened condition. For the duration, you have advantage on attacks you make against them.",
+            "tags": ["utility", "buff"]
+        },
+
+        {
+            "name": "Smuggle",
+            "level": "1st",
+            "school": "Scrounge",
+            "range": "Self",
+            "pull": "1 Hour",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "All weapons and materials on your person are hidden for the duration, or until you remove them from their hiding places.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Snack Time",
+            "level": "4th",
+            "school": "Foresight",
+            "range": "60 Feet",
+            "pull": "10 Minutes",
+            "duration": "8 Hours",
+            "components": "Four herbal scraps, consumed",
+            "description": "You and an ally within range regain 3d6 additional Hit Points during a short rest and become Well-fed for the duration.",
+            "tags": ["buff", "healing"]
+        },
+
+        {
+            "name": "Snake Oil",
+            "level": "Trick",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "One chemical or herbal scrap, consumed",
+            "description": "A target you touch may ignore one condition or one level of exhaustion until the start of your next turn.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Splint",
+            "level": "1st",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "One metal or wood scrap, consumed",
+            "description": "A target you touch is healed for 1d4 temporary hit points and has one movement impairing condition removed.",
+            "tags": ["healing", "buff"]
+        },
+
+        {
+            "name": "Stalk",
+            "level": "1st",
+            "school": "Scrounge",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "Concentration, 10 Minutes",
+            "components": "None",
+            "description": "For the duration, you have advantage on Stealth rolls made against a target within range that you can see, and you always know the target's distance and direction from you.",
+            "tags": ["buff", "utility"]
+        },
+
+        {
+            "name": "Stash",
+            "level": "Trick",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You check under the couch cushions and under the rug and scrounge up enough scraps to perform one gambit of your choice of 3rd level or lower. You may use this to supply an ally with scraps for their use. Unused scraps found with this gambit are sent to your inventory.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Steady Hands",
+            "level": "2nd",
+            "school": "Patching",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "Two herbal scraps, consumed",
+            "description": "You take a deep breath, chew some herbs and calm your nerves. You gain advantage on all Dexterity skill checks and tool use rolls for the duration.",
+            "tags": ["utility", "buff"]
+        },
+
+        {
+            "name": "Stop and Listen",
+            "level": "Trick",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 minutes",
+            "components": "None",
+            "description": "For the duration, so long as you can hear, you have advantage on Perception rolls relying on hearing, and you cannot be surprised.",
+            "tags": ["utility", "buff"]
+        },
+
+        {
+            "name": "Stories of Old",
+            "level": "3rd",
+            "school": "Old Ways",
+            "range": "30 Feet",
+            "pull": "Short Rest",
+            "duration": "4 Hours",
+            "components": "None",
+            "description": "You spin tales from the pre-apocalypse. Targets within range who can hear you during a short rest gain 2d6 temporary Hit Points for the duration.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Strap In",
+            "level": "3rd",
+            "school": "Patching",
+            "range": "5 Feet",
+            "pull": "Reaction",
+            "duration": "3 Rounds",
+            "components": "Three cloth scraps, consumed",
+            "description": "A willing target within range of your choice becomes immobile as well as immune to damage from vehicles and crashes for the duration.",
+            "tags": ["buff", "utility"]
+        },
+
+        {
+            "name": "Study Up",
+            "level": "2nd",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "Reaction*",
+            "note": "* - upon failing a skill check",
+            "duration": "Instantaneous",
+            "components": "A book relevant to the task",
+            "description": "Reroll a failed Intelligence or Wisdom skill check, having remembered reading about it previously.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Stunt Driving",
+            "level": "4th",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "For the duration, you may move a vehicle you are driving through spaces occupied by other vehicles, so long as you end your movement outside their space, dealing 2d10 bludgeoning damage to the opposing vehicle.",
+            "tags": ["movement"]
+        },
+        {
+            "name": "Supportive Tech",
+            "level": "Trick",
+            "school": "Instinct",
+            "range": "90 Feet",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "Technomancer Robot or Drone",
+            "description": "You instruct your Drone to attack the same target as you. For the duration, attacks made against the target count as critical on a roll of 19 or 20 and you gain a bonus to damage done on a hit equal to your proficiency bonus.",
+            "tags": ["damage", "buff"]
+        },
+        {
+            "name": "Sweep",
+            "level": "4th",
+            "school": "Instinct",
+            "range": "10 Feet",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "Your next attack that hits deals full damage to all targets within range.",
+            "tags": ["damage", "buff"]
+        },
+
+        {
+            "name": "Take One for the Team",
+            "level": "2nd",
+            "school": "Daredevil",
+            "range": "5 Feet",
+            "pull": "Reaction*",
+            "note": "* - upon an allied creature taking damage",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You shove an ally out of the way, taking the brunt of an attack. You take the effects of the triggering attack of the intended target, but reducing the damage by 5 for each damage type.",
+            "tags": ["defense"]
+        },
+
+        {
+            "name": "Talk Shit",
+            "level": "1st",
+            "school": "Daredevil",
+            "range": "30 feet",
+            "pull": "1 Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "Up to three targets within range that can hear you must make Charisma saving throws. On failure, for the duration, a target must roll 1d4 and subtract the total from any attack or saving throw.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, you may select one additional target per slot level above 1st.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "Tape Up",
+            "level": "1st",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "One cloth scrap, consumed",
+            "description": "You quickly patch up an open wound on an ally. A target that you touch gains 1d6 temporary hit points.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, and expend one additional scrap per level, the temporary hit points granted are increased by 1d6 per slot level above 1st.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Tense Alliance",
+            "level": "2nd",
+            "school": "Civility",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "You look to bystanders for assistance. Select up to three neutral targets within range. Each target must make a Charisma saving throw or come to your aid in combat, coming to their senses at the end of the duration, should they survive.",
+            "higher": "When you pull this gambit using a slot of 3rd level or higher, you may select one additional target per slot level above 2nd.",
+            "tags": ["debuff"]
+        },
+
+        {
+            "name": "The Easy Way",
+            "level": "1st",
+            "school": "Wilderness",
+            "range": "1 Mile",
+            "pull": "Action",
+            "duration": "Concentration, up to 20 minutes",
+            "components": "None",
+            "description": "You and up to six willing targets you can see travel to a location within range over the course of the pull time. During this time, you are not attacked and suffer no injuries from the terrain. This may not be used to move through a ruins or into a settlement unmolested.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "The Gist",
+            "level": "Trick",
+            "school": "Civility",
+            "range": "10 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 10 Minutes",
+            "components": "None",
+            "description": "For the duration, you are able to understand the basics of what the target is trying to communicate, even if you do not share a common language.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "The Hard Way",
+            "level": "1st",
+            "school": "Wilderness",
+            "range": "1 Mile",
+            "pull": "Action",
+            "duration": "Concentration, up to 20 minutes",
+            "components": "None",
+            "description": "You intentionally travel through hazardous terrain to a location within range over the course of the pull time. Each minute, anyone who follows you must make a Wisdom saving throw or take 1d6 piercing damage from the terrain.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Think Ahead",
+            "level": "2nd",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "You plan ahead for a heroic action you'll need to take, giving you advantage on the next action that you take.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Thrash",
+            "level": "1st",
+            "school": "Instinct",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "10 Minutes",
+            "components": "One metal scrap, consumed",
+            "description": "You attack with whatever you can grab. For the duration, your unarmed attacks deal 1d8 damage and on a hit, the target must make a Strength saving throw or be knocked prone.",
+            "tags": ["damage", "debuff"]
+        },
+
+        {
+            "name": "Tightrope Run",
+            "level": "2nd",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "None",
+            "description": "For the duration, you may move across ropes, wires, beams or any other narrow passage of 1 inch or wider without the need for a check to stay balanced. You may use a weapon with the Reach attribute to balance yourself and dash.",
+            "tags": ["movement", "buff"]
+        },
+
+        {
+            "name": "Time Management",
+            "level": "1st",
+            "school": "Foresight",
+            "range": "Self",
+            "pull": "1 Minute",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You find a way in the last few hours to take a short rest. You gain the normal benefits of a short rest now.",
+            "tags": ["buff", "healing"]
+        },
+
+        {
+            "name": "Transmutation",
+            "level": "4th",
+            "school": "Scrounge",
+            "range": "Touch",
+            "pull": "1 Action",
+            "duration": "Instantaneous",
+            "components": "Any number of scraps, consumed",
+            "description": "You turn target materials into half the number of scraps of a material of your choice.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Transplant",
+            "level": "5th",
+            "school": "Patching",
+            "range": "Touch",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Five cloth scraps, consumed",
+            "description": "You perform minor surgery on a pair of willing targets, allowing you to move up to 30 hit points from one target to another.",
+            "tags": ["healing"]
+        },
+
+        {
+            "name": "Tried and True",
+            "level": "5th",
+            "school": "Old Ways",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "None",
+            "description": "Your allies trust your methods. Choose up to three targets within range and a skill with in which you're proficient. For the duration, each target shares your proficiency in that skill.",
+            "higher": "When you pull this gambit using a slot of 6th level or higher, you may select one additional target per slot level above 5th.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Troll",
+            "level": "1st",
+            "broken": "small",
+            "school": "Wilderness",
+            "range": "30 Feet",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "Your trolling pushes all the wrong buttons. One target within range that can see you must make a Wisdom saving throw or be drawn to you, compelled by their rage. For the duration, it has disadvantage on attacks against other creatures and must make a Wisdom saving throw each time it attempts to move more than 30 feet away from you. The gambit ends if you attack any other creature, if pull a gambit that targets a hostile creature other than the target, if a creature friendly to you damages the target, or if you end your turn more than 30 feet away from the target.",
+            "tags": ["debuff", "control", "movement"]
+        },
+
+        {
+            "name": "Trust Fall",
+            "level": "3rd",
+            "school": "Old Ways",
+            "range": "Self",
+            "pull": "Reaction",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You trust your friends to catch you, allowing you take no damage from a fall of up to 50 feet, so long as you land in the same space as a friendly creature.",
+            "tags": ["utility", "movement"]
+        },
+
+        {
+            "name": "Trust Yourself",
+            "level": "5th",
+            "school": "Instinct",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "For the duration, so long as you have no allies within range, you roll 3 dice when you make a roll with advantage.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Truth Circle",
+            "level": "2nd",
+            "school": "Instinct",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "You create a 15 foot radius truth circle, inside of which people are compelled by good manners to tell the truth. Any creature who enters the space on their turn, or ends their turn in the space, must make a Charisma saving throw. On a failed save, they are unable to tell a deliberate lie. Targets know they are compelled to honesty, and you know if they pass their saving throws.",
+            "tags": ["debuff", "utility"]
+        },
+
+        {
+            "name": "Twist the Knife",
+            "level": "3rd",
+            "school": "Slaying",
+            "range": "5 Feet",
+            "pull": "Reaction*",
+            "note": "* - upon a successful melee attack",
+            "duration": "1 Round",
+            "components": "None",
+            "description": "You deal an additional 2d6 piercing damage on the attack that triggers this gambit, and the target must make a Constitution saving throw or become stunned for the duration.",
+            "tags": ["debuff", "damage"]
+        },
+
+        {
+            "name": "Unearned Confidence",
+            "level": "5th",
+            "school": "Old Ways",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "None",
+            "description": "You may choose to pass a saving throw against gaining a condition, or gain advantage on a roll of your choice, at which point the gambit ends.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Unload",
+            "level": "2nd",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "None",
+            "description": "You blow through an entire clip of ammunition. You may either make an additional attack or gain +2d6 to an attack that hits with a ranged weapon this turn.",
+            "tags": ["damage"]
+        },
+
+        {
+            "name": "Untraceable",
+            "level": "2nd",
+            "school": "Wilderness",
+            "range": "30 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "None",
+            "description": "For the duration, each target within range has a +10 bonus to Stealth checks and can't be tracked except through the use of gambits.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Utilize Terrain",
+            "level": "5th",
+            "school": "Wilderness",
+            "range": "100 Feet",
+            "pull": "Bonus Action",
+            "duration": "Concentration, up to 1 hour",
+            "components": "None",
+            "description": "You get to a difficult to reach spot. You may immediately use your movement to get to a location within range, ignoring difficult terrain. Any enemies that attempt to follow you must make a Strength saving throw or take 2d8 bludgeoning damage from the rough terrain and are knocked prone.",
+            "tags": ["debuff", "damage", "movement"]
+        },
+
+        {
+            "name": "Vendetta",
+            "level": "1st",
+            "school": "Daredevil",
+            "range": "30 Feet",
+            "pull": "Bonus Action",
+            "duration": "1 Minutes",
+            "components": "None",
+            "description": "Select a target within range that you just really hate. For the duration, your attacks against that target have advantage and critical on a natural 19 or 20.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Vigilant Travel",
+            "level": "1st",
+            "broken": "small",
+            "school": "Wilderness",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Concentration, up to 4 hours",
+            "components": "One herbal scrap, consumed",
+            "description": "As you travel, you are extremely alert to dangers. You cannot be surprised and have +10 to your passive Perception score for the duration. You have advantage on initiative rolls during this time as well.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, and expend one additional scrap per level, you may select one additional target other than yourself per slot level above 1st.",
+            "tags": ["buff", "movement", "utility"]
+        },
+
+        {
+            "name": "Volatile Medicines",
+            "level": "6th",
+            "school": "Scrounge",
+            "range": "Self",
+            "pull": "1 Minute",
+            "duration": "1 Hour",
+            "components": "Six herbal scraps, consumed",
+            "description": "You mix up 2d10 temporary chemical scraps. These scraps only last for the duration of this gambit, and may be used to fuel gambits that require chemical scraps or used to craft first aid kits.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Walk Away",
+            "level": "2nd",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "For the duration, you may use your reaction to ignore all damage and effects of any attack, including environmental hazards and vehicle crashes. Whenever you do so, you take one level of exhaustion.",
+            "tags": ["buff", "debuff"]
+        },
+
+        {
+            "name": "Wastefulness",
+            "level": "3rd",
+            "school": "Daredevil",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "1 Minute",
+            "components": "None",
+            "description": "For the duration, your gambits that consume materials and items consume twice the normal amount. Those gambits heal, repair or deal twice the amount of damage. If the gambit grants a bonus to damage, that bonus is doubled. This does not apply to Crafting gambits.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Weak Link",
+            "level": "4th",
+            "school": "Civility",
+            "range": "100 Feet",
+            "pull": "Action",
+            "duration": "10 Minutes",
+            "components": "None",
+            "description": "Make an Intelligence saving throw against your own gambit DC. On a success, the GM informs you of a target representing a critical element of their group. If that target is defeated, all creatures friendly to them become vulnerable to all damage for the duration.",
+            "tags": ["utility"]
+        },
+
+        {
+            "name": "Weapon Coating",
+            "level": "3rd",
+            "school": "Slaying",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "1 Hour",
+            "components": "Three chemical scraps, consumed",
+            "description": "A melee weapon you can touch deals its damage as acid, heat, necrotic or poison for the duration.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Wild Antidote",
+            "level": "6th",
+            "school": "Foresight",
+            "range": "Touch",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Six herbal scraps, consumed",
+            "description": "A willing target you can touch loses one level of exhaustion and regains 3d10 lost hit points.",
+            "higher": "When you pull this gambit using a slot of 7th level or higher, and expend one additional scrap per level, the healing granted is increased by 1d10 per slot level above 6th.",
+            "tags": ["healing", "buff"]
+        },
+
+        {
+            "name": "Workout",
+            "level": "4th",
+            "school": "Old Ways",
+            "range": "Self",
+            "pull": "1 Hour",
+            "duration": "8 Hours",
+            "components": "Four metal, wood or plastic scraps",
+            "description": "You get totally yoked, bro, and gain +2 to your choice of Constitution or Strength for the duration. This may increase the chosen ability score over 20.",
+            "tags": ["buff"]
+        },
+
+        {
+            "name": "Your Funeral",
+            "level": "1st",
+            "broken": "small",
+            "school": "Slaying",
+            "range": "60 Feet",
+            "pull": "Action",
+            "duration": "Concentration, up to 1 minute",
+            "components": "None",
+            "description": "Choose a target within range that you can see. The target must make a Charisma saving throw or take 2d6 psychic damage, and for the duration take an additional 2d6 psychic damage any time they attempt to attack you.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, the damage dealt increases 1d6 OR you may select one additional target per slot level above 1st.",
+            "tags": ["damage", "debuff"]
+        },
+
+        {
+            "name": "You're Fine",
+            "level": "5th",
+            "school": "Patching",
+            "range": "100 feet",
+            "pull": "Action",
+            "duration": "3 Hours",
+            "components": "Five chemical or herbal scraps, consumed",
+            "description": "You give a friendly target within range some tough love. They immediately gain 3d10 temporary hit points, and for the duration may ignore one negative condition of your choice. At the end of the duration, the condition returns, provided its duration has not expired in the meantime.",
+            "tags": ["healing", "buff"]
+        },
+
+        {
+            "name": "Craft: Chemical Bolt",
+            "level": "2nd",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "1 Minute",
+            "duration": "Instantaneous",
+            "components": "At least 1d4 ammunition, two chemical scraps, consumed",
+            "description": "You coat a handful of arrows in chemicals and acids. At the end of the duration, you may add 1d4 Chemical Bolts to your inventory.",
+            "tags": ["crafting", "damage"]
+        },
+
+        {
+            "name": "Craft: Acid Vial",
+            "level": "Trick",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "Action",
+            "duration": "Instantaneous",
+            "components": "Two chemical and glass or plastic scrap, consumed",
+            "description": "You combine some chemicals you probably shouldn't have and now you've got some acid going, baby. At the end of the duration, you may add one Acid Vial to your inventory. You may expend additional scrap to increase the potency of the Acid Vial by 1d6 per additional scrap.",
+            "tags": ["crafting", "damage", "utility"]
+        },
+
+        {
+            "name": "Craft: Amphetamines",
+            "level": "3rd",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Three chemical or herbal scraps, consumed",
+            "description": "There's an RV out there somewhere with your name on it. At the end of the duration, you may add one dose of Amphetamines to your inventory.",
+            "tags": ["crafting", "healing", "buff"]
+        },
+
+        {
+            "name": "Craft: Antitoxin",
+            "level": "1st",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "Four herbal scraps, consumed",
+            "description": "You mix herbs together into an antidote. At the end of the duration, you may add one Antitoxin to your inventory.",
+            "tags": ["crafting", "healing", "buff"]
+        },
+
+        {
+            "name": "Craft: Battery",
+            "level": "Trick",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "One chemical and metal scrap, consumed",
+            "description": "You think back to the middle school science class you never had and put together a small battery. At the end of the duration, you may add one Battery to your inventory. You may expend additional scrap to craft additional Batteries.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Climbing Gear",
+            "level": "Trick",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "1 Minute",
+            "duration": "Instantaneous",
+            "components": "One cloth and metal or wood scrap, consumed",
+            "description": "You cobble together a set of Climbing Gear. At the end of the duration, you may add one set of Climbing Gear to your inventory.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Concussion Grenade",
+            "level": "2nd",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Two chemical and glass or metal scraps, consumed",
+            "description": "You pack some loud explosives into a container. At the end of the duration, you may add one Concussion grenade to your inventory.",
+            "tags": ["damage", "crafting"]
+        },
+
+        {
+            "name": "Craft: Gear Modification",
+            "level": "3rd",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "8 Hours",
+            "duration": "Instantaneous",
+            "components": "Ten electronic, glass and metal scraps, consumed",
+            "description": "You construct a modification of your choice for a weapon or armor in your possession. At the end of the duration, you may add the constructed modification to the item for which it was created, replacing any modification it already has.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Firebomb",
+            "level": "1st",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "1 Minute",
+            "duration": "Instantaneous",
+            "components": "Three chemical, cloth and glass scraps, consumed",
+            "description": "You summon your inner revolutionary, stuff a rag in a bottle of liquor and go to town. At the end of the duration, you may add one Firebomb to your inventory.",
+            "tags": ["crafting", "damage"]
+        },
+
+        {
+            "name": "Craft: First Aid Kit",
+            "level": "2nd",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Two cloth or plastic and chemical or herbal scrap, consumed",
+            "description": "Using scraps and some know how, you assemble a First Aid Kit. At the end of the pull time, you may add one First Aid Kit to your inventory.",
+            "higher": "When you pull this gambit using a slot of 2nd level or higher, and expend one additional scrap per level, you may increase the potency of the First Aid Kit by 1d4 + 1 per slot level above 1st.",
+            "tags": ["crafting", "healing"]
+        },
+
+        {
+            "name": "Craft: Flash Grenade",
+            "level": "1st",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Three chemical and glass or metal scraps, consumed",
+            "description": "You add pinch of phosphorus, magnesium and other explosives packed into a container. At the end of the duration, you may add one Flash Grenade to your inventory.",
+            "tags": ["crafting", "debuff"]
+        },
+
+        {
+            "name": "Craft: Fragmentation Grenade",
+            "level": "2nd",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Three chemical and glass or metal scraps, consumed",
+            "description": "You pack shrapnel and some explosive chemicals into a container and hope for the best. At the end of the pull time, you may add one Fragmentation Grenade to your inventory.",
+            "tags": ["crafting", "damage"]
+        },
+
+        {
+            "name": "Craft: Heavy Ammunition",
+            "level": "2nd",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Gunsmith's tools, three metal and chemical scraps, consumed",
+            "description": "You construct heavy explosive ammunition. Choose metal slugs, heavy shot or explosive ammunition and roll 1d10. On 1-4, you craft 1d4 ammunition of that type. On a 5-6, you craft 1d6. On a 7-8, you craft 1d8 and on a 9-10 you craft 1d10 ammunition.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Light Ammunition",
+            "level": "1st",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Gunsmith's tools, one metal or wood scraps, consumed",
+            "description": "You take some time to construct some basic ammunition. Choose scrap shot, wood bolts or metal bolts, expend one scrap of the requisite material and roll 1d10. On 1-4, you craft 1d4 ammunition of that type. On a 5-6, you craft 1d6. On a 7-8, you craft 1d8 and on a 9-10 you craft 1d10 ammunition.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Lantern",
+            "level": "1st",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "1 Minute",
+            "duration": "Instantaneous",
+            "components": "Three chemical, cloth and glass scrap, consumed",
+            "description": "Combining fuel, a wick and a container you assemble a Lantern. At the end of the duration, you may add one Lantern to your inventory.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Lamp",
+            "level": "1st",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Three battery, one glass and electronic scrap, consumed",
+            "description": "You create a makeshift Lamp from a bottle, an old light bulb and a battery. At thee end of the duration, you may add one Lamp to your inventory.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Lockpick",
+            "level": "Trick",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Two metal or plastic scraps, consumed",
+            "description": "You dig out a bobby pin and a pick and put together a lockpick set. At the end of the duration, you may add one Lockpick to your inventory. You may expend additional scrap to craft additional Lockpicks.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Noisemaker",
+            "level": "1st",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "1 Minute",
+            "duration": "Instantaneous",
+            "components": "One battery, two electronic scraps, consumed",
+            "description": "Chattering teeth, buzzy speaker, cuckoo clock, all wrapped into one. At the end of the duration, you may add one Noisemaker to your inventory.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Oil Canister",
+            "level": "1st",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "1 Minute",
+            "duration": "Instantaneous",
+            "components": "One chemical and metal or glass scrap, consumed",
+            "description": "Some oil in a breakable container is the perfect combination for some slapstick fun. At the end of the duration, you may add one Oil Canister to your inventory.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Painkiller",
+            "level": "Trick",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "Bonus Action",
+            "duration": "Instantaneous",
+            "components": "One herbal scrap, consumed",
+            "description": "You mix up a blend of eleven herbs and spices and make a quick temporary medicine. At the end of the duration, you may add one Painkiller to your inventory. You may expend additional scrap to increase the potency of the Painkiller by 1d4 + 1 per additional scrap.",
+            "tags": ["crafting", "healing"]
+        },
+
+        {
+            "name": "Craft: Ration",
+            "level": "Trick",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "One animal and herbal scrap, consumed",
+            "description": "You combine some ingredients and prepare some food. At the end of the duration, you may add one Ration to your inventory. You may expend additional scrap to craft additional Rations.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Rope",
+            "level": "Trick",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Five cloth or plastic scraps, consumed",
+            "description": "You tie and weave together bits of cloth and plastic to create a rope. At the end of the duration, you may add one 5ft. Rope to your inventory. You may expend additional scrap to create longer lengths of rope.",
+            "tags": ["utility", "crafting"]
+        },
+
+        {
+            "name": "Craft: Smoke Grenade",
+            "level": "Trick",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "10 Minutes",
+            "duration": "Instantaneous",
+            "components": "Two chemical and glass or metal scraps, consumed",
+            "description": "You fill a metal or glass container with some volatile chemicals. At the end of the duration, you may add one Smoke Grenade to your inventory.",
+            "tags": ["crafting", "debuff"]
+        },
+
+        {
+            "name": "Craft: Torch",
+            "level": "Trick",
+            "school": "Crafting",
+            "range": "Self",
+            "pull": "1 Minute",
+            "duration": "Instantaneous",
+            "components": "Three chemical, cloth and wood scrap, consumed",
+            "description": "You wrap some cloth around a stick, soak it in fuel and make a Torch. At the end of the duration, you may add one Torch to your inventory.",
+            "tags": ["utility", "crafting"]
+        }
+    ]
+}
