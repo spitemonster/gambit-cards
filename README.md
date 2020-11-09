@@ -14,7 +14,7 @@ This project is basically done. The only thing that may change in the future is 
 
 `npm install`
 
-Open the HTML file in your browser or host on whatever server you feel like. It's HTML. It doesn't matter.
+Open the HTML file in your browser or host it and the `dist` folder on whatever server you feel like. It's HTML, you can figure it out.
 
 ## Notes
 
