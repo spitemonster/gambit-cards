@@ -18,6 +18,6 @@ Open the HTML file in your browser or host on whatever server you feel like. It'
 
 ## Notes
 
-Icons from iconmonstr.
+Icons from [iconmonstr](https://iconmonstr.com/).
 
 Hellscapes is (partially, given that it is based on the D&D 5e SRD) the creation of Scrivened LLC. and Ryan Chaddock. I think it's reasonable to note that Ryan Chaddock has been accused of sexual misconduct. I don't have the time or capacity to fully research this subject and even if I did it would not be my place to judge the guilt or innocence of any involved.
